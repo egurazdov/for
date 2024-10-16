@@ -43,7 +43,7 @@ fun main() {
     println("Задание 5")
     val n = 20
 
-    for (i in n downTo 1)  if (i%2==0) print(" $i")
+    for (i in n downTo 1 step 2)   print(" $i")
 
 
 }
